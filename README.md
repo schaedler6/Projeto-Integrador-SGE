@@ -10,7 +10,7 @@ Acabei de corrigir e validar o **pipeline de CI/CD** no GitHub Actions. Agora, s
 
 Se os testes falharem, o GitHub Actions mostrará os **logs detalhados** com o erro. Para evitar problemas, confiram os logs sempre que um commit for rejeitado.
 
- **Onde ver os testes?**  
+ **Onde ver os testes ?**  
 Acesse a aba **"Ações"** no repositório GitHub:  
  [https://github.com/schaedler6/Projeto-Integrador-SGE/actions](https://github.com/schaedler6/Projeto-Integrador-SGE/actions)  
 
