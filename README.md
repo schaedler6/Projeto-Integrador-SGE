@@ -10,10 +10,16 @@ Acabei de corrigir e validar o **pipeline de CI/CD** no GitHub Actions. Agora, s
 
 Se os testes falharem, o GitHub Actions mostrará os **logs detalhados** com o erro. Para evitar problemas, confiram os logs sempre que um commit for rejeitado.
 
+<<<<<<< HEAD
  **Onde ver os testes ?**  
 Acesse a aba **"Ações"** no repositório GitHub:  
  [https://github.com/schaedler6/Projeto-Integrador-SGE/actions](https://github.com/schaedler6/Projeto-Integrador-SGE/actions)  
+=======
+**Onde ver os testes?**  
+Acesse a aba **\"Ações\"** no repositório GitHub:  
+ [https://github.com/schaedler6/Projeto-Integrador-SGE/actions](https://github.com/schaedler6/Projeto-Integrador-SGE/actions)
+>>>>>>> 4a060f0 (Corrigindo erro de digitação no README)
 
- **Dica:** Antes de fazer push, rodem os testes localmente com \pytest tests/\ para evitar falhas.
+**Dica:** Antes de fazer push, rodem os testes localmente com \pytest tests/\ para evitar falhas.
 
  **Bora codar!**
