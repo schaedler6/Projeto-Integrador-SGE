@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+
+>>>>>>> b792bee (Corrigindo pipeline CI/CD no GitHub Actions)
 name: CI/CD Pipeline
 
 on:
@@ -18,7 +22,11 @@ jobs:
       - name: Configurar Python
         uses: actions/setup-python@v3
         with:
+<<<<<<< HEAD
           python-version: "3.9"
+=======
+          python-version: '3.9'
+>>>>>>> b792bee (Corrigindo pipeline CI/CD no GitHub Actions)
 
       - name: Instalar Dependências
         run: |
@@ -33,6 +41,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Deploy para Produção
+<<<<<<< HEAD
         run: echo "Deploy realizado com sucesso!"
 
+=======
+        run: echo 'Deploy realizado com sucesso!'
+>>>>>>> b792bee (Corrigindo pipeline CI/CD no GitHub Actions)
 
