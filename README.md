@@ -1,19 +1,45 @@
-# Atualização no Projeto: CI/CD Corrigido!
+# Projeto Integrador SGE
 
-Olá, professores!
+# Sistema web de gestão de estoque desenvolvido para controle de produtos, usuários e auditoria de movimentações.
 
-Acabei de corrigir e validar o **pipeline de CI/CD** no GitHub Actions. Agora, sempre que alguém fizer um **push** ou um **pull request** na branch main, os seguintes processos serão executados automaticamente:
+A aplicação foi construída com Python e Flask no back-end, MySQL como banco de dados e interface web em HTML, CSS e JavaScript. O projeto tem como foco a rastreabilidade das operações, o controle de acesso e a organização do fluxo de estoque em ambiente interno.
 
-**Averiguações automatizadas** (pytest tests/)  
-**Instalação das dependências**  
-**Deploy automático (simulado por enquanto)**  
+## Principais funcionalidades
 
-Se as averiguações falharem, o GitHub Actions mostrará os **logs detalhados** com o erro. Para evitar problemas, confiram os logs sempre que um commit for rejeitado.
+- cadastro, edição e consulta de produtos
+- controle de acesso por usuário
+- registro de movimentações e histórico
+- apoio à auditoria e rastreabilidade
+- estrutura preparada para testes e integração contínua
 
-**Onde ver as averiguações?**  
-Acesse a aba **"Ações"** no repositório GitHub:  
-[https://github.com/schaedler6/Projeto-Integrador-SGE/actions](https://github.com/schaedler6/Projeto-Integrador-SGE/actions)
+## Stack
 
-**Dica:** Antes de fazer push, rodem as averiguações localmente com pytest tests/ para evitar falhas.
+- Python
+- Flask
+- MySQL
+- HTML
+- CSS
+- JavaScript
+- GitHub Actions
 
-**Bora codar!**
+## Boas práticas aplicadas
+
+- versionamento com Git e GitHub
+- testes automatizados
+- pipeline de CI com GitHub Actions
+- organização de documentação e estrutura de projeto
+
+## Estrutura
+
+- `docs/` documentação
+- `tests/` testes
+- `requirements.txt` dependências
+- `pyproject.toml` configuração do projeto
+
+## Contexto
+
+Este repositório representa um projeto integrador com abordagem prática de desenvolvimento web, banco de dados, versionamento e automação de validação, servindo também como peça de portfólio técnico.
+
+## Licença
+
+MIT
