@@ -44,11 +44,50 @@ O repositório utiliza validações automatizadas para manter consistência no c
 
 ## Estrutura do Projeto
 
-```text
-Projeto-Integrador-SGE/
-├── docs/
-├── tests/
-├── .github/
-├── requirements.txt
-├── pyproject.toml
-└── README.md
+    Projeto-Integrador-SGE/
+    ├── docs/
+    ├── tests/
+    ├── .github/
+    ├── requirements.txt
+    ├── pyproject.toml
+    └── README.md
+
+## Como Executar Localmente
+
+1. Clone o repositório:
+
+    git clone https://github.com/schaedler6/Projeto-Integrador-SGE.git
+
+2. Acesse a pasta do projeto:
+
+    cd Projeto-Integrador-SGE
+
+3. Instale as dependências:
+
+    pip install -r requirements.txt
+
+4. Execute a aplicação conforme a configuração do projeto.
+
+## Testes e Validação
+
+Para rodar as verificações principais localmente:
+
+    python -m black --check .
+    python -m ruff check .
+    python -m pytest -q
+
+## Contexto do Projeto
+
+Este projeto representa uma aplicação prática de desenvolvimento web com foco em organização de dados, controle de acesso, versionamento e validação automatizada. Além do contexto acadêmico, ele também funciona como peça de portfólio para demonstrar conhecimentos em back-end, banco de dados, testes e fluxo de qualidade de código.
+
+## Próximas Melhorias
+
+- adicionar capturas de tela do sistema
+- documentar fluxo de autenticação
+- expandir a cobertura de testes
+- detalhar regras de negócio do estoque
+- publicar instruções completas de configuração do ambiente
+
+## Licença
+
+Este projeto está distribuído sob a licença MIT.
