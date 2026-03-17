@@ -1,18 +1,28 @@
 # Projeto Integrador SGE
 
-# Sistema web de gestão de estoque desenvolvido para controle de produtos, usuários e auditoria de movimentações.
+Sistema web de gestão de estoque desenvolvido para controle de produtos, usuários e auditoria de movimentações internas.
 
-A aplicação foi construída com Python e Flask no back-end, MySQL como banco de dados e interface web em HTML, CSS e JavaScript. O projeto tem como foco a rastreabilidade das operações, o controle de acesso e a organização do fluxo de estoque em ambiente interno.
+O projeto foi construído com Python e Flask no back-end, MySQL no banco de dados e HTML, CSS e JavaScript no front-end. A aplicação foi pensada para centralizar o gerenciamento de estoque, melhorar a rastreabilidade das operações e organizar o fluxo de acesso e movimentação dentro do sistema.
 
-## Principais funcionalidades
+## Objetivo
+
+O objetivo deste projeto é oferecer uma base funcional para controle de estoque em ambiente web, permitindo:
+
+- cadastro e gerenciamento de produtos
+- controle de usuários e permissões
+- registro de movimentações
+- rastreabilidade e apoio à auditoria
+- organização das operações do sistema
+
+## Funcionalidades
 
 - cadastro, edição e consulta de produtos
-- controle de acesso por usuário
-- registro de movimentações e histórico
-- apoio à auditoria e rastreabilidade
-- estrutura preparada para testes e integração contínua
+- controle de acesso por usuários
+- histórico de movimentações
+- estrutura preparada para testes automatizados
+- integração com pipeline de validação contínua
 
-## Stack
+## Tecnologias Utilizadas
 
 - Python
 - Flask
@@ -20,26 +30,25 @@ A aplicação foi construída com Python e Flask no back-end, MySQL como banco d
 - HTML
 - CSS
 - JavaScript
+- Git
 - GitHub Actions
 
-## Boas práticas aplicadas
+## Qualidade e Automação
 
-- versionamento com Git e GitHub
-- testes automatizados
-- pipeline de CI com GitHub Actions
-- organização de documentação e estrutura de projeto
+O repositório utiliza validações automatizadas para manter consistência no código, incluindo:
 
-## Estrutura
+- formatação com Black
+- análise estática com Ruff
+- testes com Pytest
+- execução automática via GitHub Actions
 
-- `docs/` documentação
-- `tests/` testes
-- `requirements.txt` dependências
-- `pyproject.toml` configuração do projeto
+## Estrutura do Projeto
 
-## Contexto
-
-Este repositório representa um projeto integrador com abordagem prática de desenvolvimento web, banco de dados, versionamento e automação de validação, servindo também como peça de portfólio técnico.
-
-## Licença
-
-MIT
+```text
+Projeto-Integrador-SGE/
+├── docs/
+├── tests/
+├── .github/
+├── requirements.txt
+├── pyproject.toml
+└── README.md
